@@ -1,0 +1,38 @@
+/******all start ***********/
+
+
+/********** all end ***********/
+
+
+/***** nav start *****/
+.s{background: rgba(0,0,0,0.5);border:none;}
+.s li a{color: #bf9f60;margin-bottom: 0px;padding-bottom: 27px;height: 100%;margin-top: 14px;text-shadow:none;font-size: 15px;}
+.s li a:hover{color: #000;cursor: pointer;}
+.s span{background:#fff ;}
+.header_nav i{margin-right: 10px;vertical-align: text-bottom;}
+.header_nav span{position: absolute;bottom: 10px;left: 50%;background: #bf9f60}
+@media (max-width: 600px) { 
+	.s li a{padding: 0 0 9px 0;text-shadow:none;font-size: 12px;}
+	.header_nav span{display: none;}
+}
+.nav_logo{position: relative;}
+.nav_logo img{position: absolute;top: 0px;left: 35%;width: 30%;}
+.header_nav #ico{position: absolute;left: 5%;z-index: 100;color: #fff;display: none;margin: 0;}
+.header_nav .nav_list a{padding-bottom: 0;text-align: center;}
+/***** nav end *****/
+
+/**** banner start ****/
+.banner{width:100%;background:#fff}
+.banner .banner_font{width:100%;height:100%;color:#fff;}
+.banner img{width: 100%}
+/**** banner end ****/
+
+/********footer start *************/
+.footer_font {text-align: center;background: #000;color: #ccc;font-size: 12px;padding:25px 0; border-top:1px solid #b87b23 }
+.footer_font ul{margin: 1;}
+.footer_font a{text-decoration: none;color: #ccc;}
+.footer_font li{display: inline-block;height: 100%;padding:0 7px;}
+.footer_font .silde_c{border-right:1px solid #ccc;width: 1px;}
+@media (max-width: 600px) {
+.footer_font .silde_c{display: none} }
+/********* footer end  ******************
