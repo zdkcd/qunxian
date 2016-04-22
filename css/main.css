@@ -1,5 +1,5 @@
 /******all start ***********/
-
+a:focus { outline: none; } 
 
 /********** all end ***********/
 
@@ -16,7 +16,7 @@
 	.header_nav span{display: none;}
 }
 .nav_logo{position: relative;}
-.nav_logo img{position: absolute;top: -22px;left: 35%;width: 30%;}
+.nav_logo img{position: absolute;top: -35px;left: 35%;width: 30%;background:rgba(0,0,0,0.5)}
 .header_nav #ico{position: absolute;left: 5%;z-index: 100;color: #fff;display: none;margin: 0;}
 .header_nav .nav_list a{padding-bottom: 0;text-align: center;}
 /***** nav end *****/
@@ -61,66 +61,7 @@
 }
 /*******poj end**************8*/
 /*****news start*************/
-#news{
-	color: #030303;
-	font-size: 17px;
-	height: 500px;
-	background: #8B8989;
-	padding-left: 30px;
-    background: url(tu/bg3.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-#news .first{
-	background:#000;
 
-}
-#news a{color:#bf9f60;
-  
-}
-#news li {
-overflow: hidden; /*自动隐藏文字*/
-text-overflow: ellipsis;/*文字隐藏后添加省略号*/
-white-space: nowrap;/*强制不换行*/
-/*不允许出现半汉字截断*/
-
-
-}
-#news .contens{
-	font-size: 19px;
-	line-height: 30px;
-	color: #bf9f60;
-	border-bottom: 1px dashed #d2b48c;
-}
-#news .contens a:hover{
-color: #ee2c2c;
-}
-#news .ntitle{font-size: 20px;}
-#news h2{
-	font-size: 30px;
-	margin-left: 40px;
-}
-
-#news .second{
-	background: #fff;
-}
-
-#news .third{
-	background: #fff;
-}
-#news .row li a:hover{
-	color: #f60;
-}
-#news ul{
-	list-style: none;
-	line-height: 25px;
-    width: 14em;
-    color: #97FFFF;
-	
-}
-#news .act{
-	font-size: 22px;margin-top: 15px;
-}
 /*****news end*************/
 /********footer start *************/
 .footer_font {text-align: center;background: #000;color: #ccc;font-size: 12px;padding:25px 0; border-top:1px solid #b87b23 }
