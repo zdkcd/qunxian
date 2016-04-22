@@ -30,35 +30,45 @@ a:focus { outline: none; }
 .carousel-inner h3{margin: 100px 800px;width: 20px;line-height: 40px;}
 /**** banner end ****/
 /*******poj start**************8*/
+/* 案例css样式 */
+	#pro1{font-size:18px;font-family:'微软雅黑';color:#000;background: #efead7;margin-top: 0px;}
 
-#pro1{font-size:18;font-family:'微软雅黑';color:#000;background: #efead7;}
+	.pro1{
+		height: 120px;
+		border:3px solid #fff;
+		box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
+		overflow: hidden;transition:all 1s;
+	}
+	.pro-title{
+		color:#8e0d0f;text-shadow: 4px 3px 5px #000;font-size: 25px;
+	}
+	.pro img{
+		height: 100%;
+	}
 
-.pro1{
-	height: 120px;
-	border:3px solid #fff;
-	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
-	overflow: hidden;transition:all 1s;
-}
-.pro img{
-	height: 100%;
-}
-.pro1:hover{
-	/*box-shadow: 1px 5px 5px 4px rgba(0,0,0,.3);*/
-	-webkit-transform:translate(0,-5px) scale(1.2);
-	-moz-transform:translate(0,-5px) scale(1.2);
-	transition:all 1s;
-}
-.pro1:hover img{
-	/*box-shadow: 1px 5px 5px 4px rgba(0,0,0,.3);*/
-	-webkit-transform:translate(0,-5px) scale(1.2);
-	-moz-transform:translate(0,-5px) scale(1.2);
-	transition:all 1s;
-}
-.list{
-	margin-top: 50px;
-}
-.pro1:after{
-}
+	#fd{
+		position: absolute;
+		top: 97%;
+		left: 8%;
+		font-size: 25px;
+		color:#fff;
+		overflow: hidden;
+		transition:all 0.5s;
+		opacity: 0;
+	}
+	#fs-box:hover #fd{
+		top:78%;
+		opacity:1;
+	}
+
+	.content-img{
+		border:10px solid #dfdfdf;
+		margin-top: 25%;
+	}
+	.list{
+		margin-top: 50px;
+	}
+/* 案例css样式 */
 /*******poj end**************8*/
 /*****news start*************/
 
