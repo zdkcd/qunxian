@@ -11,6 +11,11 @@ a:focus { outline: none; }
 .s span{background:#fff ;}
 .header_nav i{margin-right: 10px;vertical-align: text-bottom;}
 .header_nav span{position: absolute;bottom: 10px;left: 50%;background: #bf9f60}
+
+@media (max-width:1024px){
+	*{font-size:90%;}
+}
+
 @media (max-width: 600px) { 
 	.s li a{padding: 0 0 9px 0;text-shadow:none;font-size: 12px;}
 	.header_nav span{display: none;}
