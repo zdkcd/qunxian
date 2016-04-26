@@ -49,6 +49,8 @@ a:focus { outline: none; }
 /**** banner end ****/
 /*******poj start**************8*/
 /* 案例css样式 */
+	.hover-pro:hover{display:block;background: rgba(0,0,0,.5)}
+	
 	#pro1{margin-top: 0px;}
 
 	.pro1{
