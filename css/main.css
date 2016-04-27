@@ -1,3 +1,21 @@
+
+
+
+
+
+
+body{font-family:'微软雅黑';color:#000;background-image:url('/templetes/qunxian/images/long.png');}
+
+/*  nav start */
+	#tes .top_trt ul li{
+	
+	float: left;
+	color: #fff;
+	width: 70px;
+	text-align: center;
+}
+
+/* end */
 /******all start ***********/
 a:focus { outline: none; } 
 
@@ -5,35 +23,43 @@ a:focus { outline: none; }
 
 
 /***** nav start *****/
-.s{background: rgba(0,0,0,0.5);border:none;}
-.s li a{color: #bf9f60;margin-bottom: 0px;padding-bottom: 27px;height: 100%;margin-top: 14px;text-shadow:none;font-size: 15px;}
-.s li a:hover{color: #000;cursor: pointer;}
+
+#dropdownMenu1{text-decoration: none;}
+#dropdownMenu1:hover{cursor:pointer;}
+
 .s span{background:#fff ;}
-.header_nav i{margin-right: 10px;vertical-align: text-bottom;}
+.header_nav{margin-left: 5%;}
+.header_nav li{width: 20%;}
 .header_nav span{position: absolute;bottom: 10px;left: 50%;background: #bf9f60}
-/* add 4-23 */
 
-	.box-overflow{
-		overflow:auto;
-		overflow-x:hidden;
-	}
 
-	@media (max-width: 768px){
-		#pro1{
-			padding-top: 20px;
-		}
-		#pro1 .pro-title{
-			font-size: 20px;
-			top: 23px;
-			left:13px;
-		}
-	}
-/* end */
-@media (max-width: 600px) { 
-	.s li a{padding: 0 0 9px 0;text-shadow:none;font-size: 12px;}
-	.header_nav span{display: none;}
+@media (max-width:1024px){
+	.img-1{margin-right:0px; }
+	.h-head{margin: 20px;}
+	.dh-head{padding: 20px;}
+	#lx{top: 36%;right: 4%;color: #fff;font-size: 15px;}
+	.youshi{top:13%;left:33%;}
+	.youshi2{top:13%;right: -3%;}
+	.youshi3{top:66%;left:33%;}
+	.youshi4{top:66%;right:-3%;}
+
+}
+@media (max-width:1366px){
+	.img-1{margin-right:0px; }
+	.h-head{margin: 20px;}
+	.dh-head{padding: 20px;}
+	#lx{top: 36%;right: 4%;color: #fff;font-size: 15px;}
+	.youshi{top:13%;left:33%;}
+	.youshi2{top:13%;right: -3%;}
+	.youshi3{top:66%;left:33%;}
+	.youshi4{top:66%;right:-3%;}
+	.head-le{margin:20px; }
 }
 
+@media (max-width: 600px) { 
+	
+	
+}
 .nav_logo{position: relative;}
 .nav_logo img{position: absolute;top: -35px;left: 35%;width: 30%;background:rgba(0,0,0,0.5)}
 .header_nav #ico{position: absolute;left: 5%;z-index: 100;color: #fff;display: none;margin: 0;}
@@ -41,27 +67,25 @@ a:focus { outline: none; }
 /***** nav end *****/
 
 /**** banner start ****/
-.banner{
-	width:100%;height:500;background:#1f1a17;padding-top: 65px;
-}
 .banner .item img{width:100%}
-.banner .banner_font{width:100%;height:100%;font-family:'叶根友毛笔行书2.0版';color: #bf9f60}
-.carousel-inner h3{margin: 100px 800px;width: 20px;line-height: 40px;}
+.banner .banner_font{width:100%;font-family:'叶根友毛笔行书2.0版';color: #bf9f60}
+
 /**** banner end ****/
 /*******poj start**************8*/
 /* 案例css样式 */
-	#pro1{font-size:18px;font-family:'微软雅黑';color:#000;background: #efead7;margin-top: 0px;}
+	.hover-pro:hover{display:block;background: rgba(0,0,0,.5)}
+	
+	#pro1{margin-top: 0px;}
 
-	/* change 4-23*/
-		.pro-title{
-			color:#8e0d0f;
-			text-shadow: 4px 3px 5px #000;
-			font-size: 25px;
-			position:absolute;
-			top:10px;
-			left:40px;
-		}
-	/* end */
+	.pro1{
+		height: 120px;
+		border:3px solid #fff;
+		box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
+		overflow: hidden;transition:all 1s;
+	}
+	.pro-title{
+		color:#8e0d0f;text-shadow: 4px 3px 5px #000;
+	}
 	.pro img{
 		height: 100%;
 	}
@@ -70,7 +94,7 @@ a:focus { outline: none; }
 		position: absolute;
 		top: 97%;
 		left: 8%;
-		font-size: 25px;
+	
 		color:#fff;
 		overflow: hidden;
 		transition:all 0.5s;
@@ -90,11 +114,40 @@ a:focus { outline: none; }
 	}
 /* 案例css样式 */
 /*******poj end**************8*/
-/*****news start*************/
 
+/* 定时流程 */
+
+/* end */
+
+
+
+/*****news start*************/
+	a:focus {  
+			    outline:none;  
+			}  
+	.ph-left .imgs .re{border-right: 1px solid #fff;}
+	.ph-left .imgs img-responsive{margin: 0 auto}
+	.ph-left .imgs .imgs-b{background:rgba(0,0,0,0.5);padding:0;margin:0;left:0;bottom:0;right:0;height:25%}
+	.ph-left .imgs .re img{margin:30% auto;height:50px;width:50px;}
+	.ph-left .imgs .ab h4{color:#fff}
+	.ph-left .imgs .ab h6{color:#ccc;text-align: left}
+	.btn-right ul li{
+	border-radius: 50%;background:#fff;margin:15% 0;box-shadow: 1px 1px 1px 0px #ccc inset;line-height: 
+	}
+	.hy-news h3{border-bottom:1px solid #ccc;line-height:40px;color:#e62323}
+	.hy-news .h5{color: #000; font-weight: bolder;}
+	.hy-news .h6{color:#646464;line-height:17px;}
+	.hy-news .time1{color:#ccc}
+	.hy-news .more a{width:107px;height:30px;text-align: center;line-height:30px; display: block;text-decoration: none;cursor: pointer;float:right;margin:10px 15px 0 0;color: #b38f7d}
+	.gg_news .title_h{border-bottom:1px solid #ccc;margin-left:3%;padding-bottom: 15px;color: #e62323}
+	.font_de{padding-left:2%;}
+	.font_de h5{font-weight: bolder;}
+	.font_de .text_span{text-align: right;color: #646464}
+	.font_de .dele{color: #646464;line-height: 17px;}
+	.font_de a{color: #000}
 /*****news end*************/
 /********footer start *************/
-.footer_font {text-align: center;background: #000;color: #ccc;font-size: 12px;padding:25px 0; border-top:1px solid #b87b23 }
+.footer_font {text-align: center;background: #000;color: #ccc;padding:25px 0; border-top:1px solid #b87b23 }
 .footer_font ul{margin: 1;}
 .footer_font a{text-decoration: none;color: #ccc;}
 .footer_font li{display: inline-block;height: 100%;padding:0 7px;}
@@ -102,3 +155,242 @@ a:focus { outline: none; }
 @media (max-width: 600px) {
 .footer_font .silde_c{display: none} }
 /********* footer end  ******************
+
+
+
+
+
+
+
+
+
+
+
+<!-- 点击显示大图 -->
+	<a href="" id="fs-box" data-toggle="modal" data-target="#h1" style="position:absolution;display:block;">
+
+		<img src="/templetes/<%= @templete %>/images/h1.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
+
+		<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+	</a>
+	<div class="modal fade" id="h1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+		    <div class="content-img">
+				<img src="/templetes/<%= @templete %>/images/h1.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+		    </div>
+		</div>
+	</div>
+<!-- end -->
+<!-- 陶瓷 -->
+			<div class="container" id="pro1" style="margin-top:5px;">
+				
+				
+				<div class="row" style="padding-top:30px;">
+					
+					<div class="col-lg-4 col-md-4">
+						<!-- 点击显示大图 -->
+							<a href="" id="fs-box" data-toggle="modal" data-target="#c9" style="position:absolution;display:block;">
+								<img src="/templetes/qunxian/images/c1.jpg" alt="290X400" class="img-responsive" style="margin-top:5px;" >
+								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+							</a>
+							<div class="modal fade" id="c9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+								    <div class="content-img">
+										<img src="/templetes/<%= @templete %>/images/c1.jpg" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+								    </div>
+								</div>
+							</div>
+						<!-- end -->
+					</div>
+					
+					<div class="col-lg-4 col-md-4" style="padding-top:5px;">
+						<img src="/templetes/qunxian/images/tc.jpg" class="img-responsive">
+						<span style="position:absolute; top:25%;left:40%;color:#646464;width:0px;">中国德化,世界陶瓷之都</span>
+						<span style="position:absolute; top:25%;left:45%;color:#646464;width:0px;">中国当代著名瓷器产地</span>
+						<span style="position:absolute; top:25%;left:50%;color:#646464;width:0px;">中国陶瓷之乡</span>
+					</div>
+					
+					<div class="col-lg-4 col-md-4">
+						<div class="row">
+							
+							<div class="col-lg-12">
+								<!-- 点击显示大图 -->
+									<a href="" id="fs-box" data-toggle="modal" data-target="#c5" style="position:absolution;display:block;">
+										<img src="/templetes/qunxian/images/c5.jpg" alt="" class="img-responsive" style="margin-top:5px;">
+										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+									</a>
+									<div class="modal fade" id="c5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+										<div class="modal-dialog" role="document">
+										    <div class="content-img">
+												<img src="/templetes/<%= @templete %>/images/c5.jpg" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+										    </div>
+										</div>
+									</div>
+								<!-- end -->
+							</div>
+							
+							<div class="col-lg-12" style="margin-top: -4px;">								
+								<!-- 点击显示大图 -->
+									<a href="" id="fs-box" data-toggle="modal" data-target="#c4" style="position:absolution;display:block;">
+										<img src="/templetes/qunxian/images/c4.jpg" alt="" class="img-responsive" style="margin-top:5px;">
+										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+									</a>
+									<div class="modal fade" id="c4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+										<div class="modal-dialog" role="document">
+										    <div class="content-img">
+												<img src="/templetes/<%= @templete %>/images/c4.jpg" alt="100X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+										    </div>
+										</div>
+									</div>
+								<!-- end -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="position:relative;">
+					<img src="/templetes/qunxian/images/xian.png" class="img-responsive">
+					<a href="javascript:void(0)" style="position:absolute;top: 20px;right: 15px;">
+						<img src="/templetes/qunxian/images/more.jpg" class="img-responsive">
+						<span style="position:absolute;top:3px;left:5px ;color:#777">了解更多>></span>
+					</a>			
+				</div>
+			</div>
+<!-- end -->
+
+<!-- 八马茶叶 -->
+	<div class="container" id="pro1" style="margin-top:5px;">
+		
+		<div class="row" style="margin-top:30px;">
+			<div class="col-lg-4 col-md-4" >
+				<!-- 点击显示大图 -->
+					<a href="" id="fs-box" data-toggle="modal" data-target="#b1" style="position:absolution;display:block;">
+
+						<img src="/templetes/<%= @templete %>/images/y1.jpg" alt="" class="img-responsive" style="margin-top:5px;">
+
+						<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+					</a>
+					<div class="modal fade" id="b1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+						    <div class="content-img">
+								<img src="/templetes/<%= @templete %>/images/y1.jpg" alt="" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+						    </div>
+						</div>
+					</div>
+				<!-- end -->
+			</div>
+			
+			<div class="col-lg-4 col-md-4" style="padding-top:5px;">
+				<img src="/templetes/qunxian/images/bm.jpg" class="img-responsive">
+				<span style="position:absolute; top:20%;left:60%;color:#646464;width:0px;line-height:20px;letter-spacing:5px;">八马茶为福建安溪茶产业</span>
+				<span style="position:absolute; top:20%;left:65%;color:#646464;width:0px;">位居首位的高端品牌</span>
+				<span style="position:absolute; top:20%;left:70%;color:#646464;width:0px;">八马茶叶的崛起，</span>
+				<span style="position:absolute; top:20%;left:75%;color:#646464;width:0px;">是中国茶企发展的可鉴之路</span>
+			</div>
+			<div class="col-lg-4 col-md-4" >
+				<!-- 点击显示大图 -->
+					<a href="" id="fs-box" data-toggle="modal" data-target="#b2" style="position:absolution;display:block;">
+
+						<img src="/templetes/<%= @templete %>/images/y2.jpg" alt="390X400" class="img-responsive" style="margin-top:5px;">
+
+						<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+					</a>
+					<div class="modal fade" id="b2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+						    <div class="content-img">
+								<img src="/templetes/<%= @templete %>/images/y2.jpg" alt="290X400" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+						    </div>
+						</div>
+					</div>
+				<!-- end -->		
+			</div>
+			
+		</div>
+		<div class="row" style="position:relative;">
+			<img src="/templetes/qunxian/images/xian.png" class="img-responsive">
+			<a href="javascript:void(0)" style="position:absolute;top: 20px;right: 15px;">
+				<img src="/templetes/qunxian/images/more.jpg" class="img-responsive">
+				<span style="position:absolute;top:3px;left:5px ;color:#777">了解更多>></span>
+			</a>			
+		</div>
+	</div>
+<!-- end -->
+
+<!-- 古玩篇 -->
+	<div class="container " id="pro1" style="margin-top:5px;">
+		
+
+		<div class="row" style="padding-top:30px;">
+			<div class="col-lg-4 col-md-4 col-xs-12">
+				<!-- 点击显示大图 -->
+					<a href="javascript:void(0)" id="fs-box" data-toggle="modal" data-target="#g1" style="position:absolution;display:block;">
+						<img src="/templetes/<%= @templete %>/images/z2.png"alt="390X400" class="img-responsive" style="margin-top:5px;">
+						<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+					</a>
+					<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+						    <div class="content-img">
+								<img src="/templetes/<%= @templete %>/images/z2.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+						    </div>
+						</div>
+					</div>
+				<!-- end -->
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-xs-12" style="padding-top:5px;">
+				<img src="/templetes/qunxian/images/tc.jpg" class="img-responsive">
+				<span style="position:absolute; top:25%;left:40%;color:#646464;width:0px;">保护古代艺术</span>
+				<span style="position:absolute; top:25%;left:45%;color:#646464;width:0px;">收藏天下极品</span>
+				<span style="position:absolute; top:25%;left:50%;color:#646464;width:0px;">诚信经商为本</span>
+				<span style="position:absolute; top:25%;left:55%;color:#646464;width:0px;">传播古代文化</span>
+			</div>
+		
+			<div class="col-lg-4 col-md-4 col-xs-12 ">
+				<div class="row">
+					<div class="col-lg-12 col-xs-12">
+						<!-- 点击显示大图 -->
+							<a href="javascript:void(0)" id="fs-box" data-toggle="modal" data-target="#g2" style="position:absolution;display:block;">
+								<img src="/templetes/<%= @templete %>/images/z4.png"alt="390X400" class="img-responsive" style="margin-top:5px;">
+								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+							</a>
+							<div class="modal fade" id="g2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+								    <div class="content-img">
+										<img src="/templetes/<%= @templete %>/images/z4.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+								    </div>
+								</div>
+							</div>
+						<!-- end -->
+					</div>
+					<div class="col-lg-12 col-xs-12"style="margin-top: -4px;" >
+						<!-- 点击显示大图 -->
+							<a href="javascript:void(0)" id="fs-box" data-toggle="modal" data-target="#g3" style="position:absolution;display:block;">
+								<img src="/templetes/<%= @templete %>/images/z5.png"alt="390X400" class="img-responsive" style="margin-top:5px;">
+								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+							</a>
+							<div class="modal fade" id="g3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+								    <div class="content-img">
+										<img src="/templetes/<%= @templete %>/images/z5.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
+								    </div>
+								</div>
+							</div>
+						<!-- end -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="position:relative;">
+			<img src="/templetes/qunxian/images/xian.png" class="img-responsive">
+			<a href="javascript:void(0)" style="position:absolute;top: 20px;right: 15px;">
+				<img src="/templetes/qunxian/images/more.jpg" class="img-responsive">
+				<span style="position:absolute;top:3px;left:5px ;color:#777">了解更多>></span>
+			</a>			
+		</div>
+	</div>
+<!-- end -->
+
+<!-- ser start -->
+	<div class="page page4 container" style="padding:0;margin:20px auto ">
+		
+	</div>
+<!-- ser end -->

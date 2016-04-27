@@ -1,614 +1,693 @@
 
 <%= render file: 'public/templetes/qunxian/_header.html' %>
-<div class="box-overflow">
-	<!-- banner start -->
-	<div id="carousel-example-generic" class="carousel slide banner" data-ride="carousel" >
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-		</ol>
 
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox" style="top:10px;">
-			<div class="item active">
-				<img src="/templetes/qunxian/images/chengxian.png" alt="...">
-				<div class="carousel-caption">
-					<div style=""class="text-center banner_font"></div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="/templetes/qunxian/images/zhuye.png" alt="...">
-				<div class="carousel-caption">
-					<div style=""class="text-center banner_font"></div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="/templetes/qunxian/images/taoci.png" alt="...">
-				<div class="carousel-caption">
-					<div class="text-center banner_font"></div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="/templetes/qunxian/images/zhenbao.png" alt="...">
-				<div class="carousel-caption">
-					<div class="text-center banner_font"></div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="/templetes/qunxian/images/hunpo.png" alt="...">
-				<div class="carousel-caption">
-					<div class="text-center banner_font"></div>
-				</div>
-			</div>
-		</div>
 
-		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
 
-	<!-- banner end -->
-	<!-- poj start -->
-		
-		<!-- 古玩篇 -->
-			<div class="container " id="pro1" style="margin-top:10px;">
-				<div class="row" style="position:relative;">
-					<img src="/templetes/qunxian/images/xian.png" class="img-responsive">	
-					<span class="text-center pro-title">古玩·篇</span>
-				</div>
-
-				<div class="row" style="padding-top:30px;">
-					<div class="col-lg-4 col-xs-12" style="height:400px;">
-						<!-- 点击显示大图 -->
-							<a href="javascript:void(0)" id="fs-box" data-toggle="modal" data-target="#g1" style="position:absolution;display:block;">
-								<img src="/templetes/<%= @templete %>/images/z2.png"alt="390X400" class="img-responsive" style="margin-top:5px;height:384px;">
-								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
+		<!-- 导航 -->
+			<div class="container-fluid dh-head" style="background:#8d6f5f;">
+				<div class="container">	
+					<div class="row" style="">
+						<div class="col-md-2 col-xs-2 dropdown">
+							<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color:#fff;">
+								群仙闽睿
 							</a>
-							<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-								<div class="modal-dialog" role="document">
-								    <div class="content-img">
-										<img src="/templetes/<%= @templete %>/images/z2.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-								    </div>
-								</div>
-							</div>
-						<!-- end -->
-					</div>
-
-					<div class="col-lg-4 col-xs-12">
-						<div class="row">
-							<div class="col-lg-12 col-xs-12" style="height:200px;">
-								<!-- 点击显示大图 -->
-									<a href="javascript:void(0)" id="fs-box" data-toggle="modal" data-target="#g2" style="position:absolution;display:block;">
-										<img src="/templetes/<%= @templete %>/images/z4.png"alt="390X400" class="img-responsive" style="margin-top:5px;">
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="g2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/z4.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
-							<div class="col-lg-12 col-xs-12" style="height:200px;">
-								<!-- 点击显示大图 -->
-									<a href="javascript:void(0)" id="fs-box" data-toggle="modal" data-target="#g3" style="position:absolution;display:block;">
-										<img src="/templetes/<%= @templete %>/images/z5.png"alt="390X400" class="img-responsive" style="margin-top:5px;">
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="g3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/z5.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
+							<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
+								<li>
+									<a href="#">公司简介</a>
+								</li>
+								<li >
+									<a href="#">品牌介绍</a>
+								</li>
+								<li >
+									<a href="#">品牌理念</a>
+								</li>
+								<li >
+									<a href="#">企业视频</a>
+								</li>
+							</ul>
 						</div>
-					</div>
-				
-					<div class="col-lg-4 col-xs-12 ">
-						<div class="row">
-							<div class="col-lg-12 col-xs-12" style="height:200px;position:relative;">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#g4" style="position:absolution;display:block;">
-										<img src="/templetes/qunxian/images/z1.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="g4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/z1.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
-							<div class="col-lg-12 col-xs-12" style="height:200px">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#g5" style="position:absolution;display:block;">
-										<img src="/templetes/qunxian/images/z3.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="g5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/z3.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
+						<div class="col-md-2 col-xs-2">
+							<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color:#fff;">
+								闽睿红木
+							</a>
+							<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
+								<li>
+									<a href="#">红木展示</a>
+								</li>
+								<li >
+									<a href="#">红木文化</a>
+								</li>
+								<li >
+									<a href="#">红木常识</a>
+								</li>
+								<li >
+									<a href="#">红木保养</a>
+								</li>
+							</ul>
 						</div>
-					</div>
-				</div>
-			</div>
-		<!-- end -->
-		
-		<!-- 陶瓷 -->
-			<div class="container" id="pro1">
-				<div class="row" style="position:relative;">
-					<img src="/templetes/qunxian/images/xian.png" class="img-responsive">	
-					<span class="text-center pro-title">陶瓷·篇</span>
-				</div>
-				
-				<div class="row" style="padding-top:30px;">
-					<!-- 左 -->
-					<div class="col-lg-6">
-						<div class="row">
-							<!-- 左边1-1 -->
-							<div class="col-lg-6">
-								<div class="row">
-									<!-- 左边1-1-1 -->
-									<div class="col-lg-12" style="height:200px;">
-										<!-- 点击显示大图 -->
-											<a href="" id="fs-box" data-toggle="modal" data-target="#c3" style="position:absolution;display:block;">
-												<img src="/templetes/qunxian/images/c3.png" alt="290X200" class="img-responsive" style="margin-top:5px;">
-												<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-											</a>
-											<div class="modal fade" id="c3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-												<div class="modal-dialog" role="document">
-												    <div class="content-img">
-														<img src="/templetes/<%= @templete %>/images/c3-modal.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-												    </div>
-												</div>
-											</div>
-										<!-- end -->
-									</div>
-									<!-- 左边1-1-2 -->
-									<div class="col-lg-12" style="height:200px;">
-										<!-- 点击显示大图 -->
-											<a href="" id="fs-box" data-toggle="modal" data-target="#c6" style="position:absolution;display:block;">
-												<img src="/templetes/qunxian/images/c6.png" alt="290X200" class="img-responsive" style="margin-top:5px;">
-												<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-											</a>
-											<div class="modal fade" id="c6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-												<div class="modal-dialog" role="document">
-												    <div class="content-img">
-														<img src="/templetes/<%= @templete %>/images/c6-modal.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-												    </div>
-												</div>
-											</div>
-										<!-- end -->
-									</div>
-								</div>
-							</div>
-							<!-- 左边2-1 -->
-							<div class="col-lg-6">
-								<div class="row">
-									<!-- 左边2-1-1 -->
-									<div class="col-lg-12" style="height:200px;">
-										<!-- 点击显示大图 -->
-											<a href="" id="fs-box" data-toggle="modal" data-target="#c5" style="position:absolution;display:block;">
-												<img src="/templetes/qunxian/images/c5.png" alt="290X200" class="img-responsive" style="margin-top:5px;">
-												<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-											</a>
-											<div class="modal fade" id="c5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-												<div class="modal-dialog" role="document">
-												    <div class="content-img">
-														<img src="/templetes/<%= @templete %>/images/c5-modal.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-												    </div>
-												</div>
-											</div>
-										<!-- end -->
-									</div>
-									<!-- 左边2-1-2 -->
-									<div class="col-lg-12" style="height:200px;">
-										
-										<div class="row">
-											<!-- 左边2-1-2-1 -->
-											<div class="col-lg-6 col-xs-6">
-												<!-- 点击显示大图 -->
-													<a href="" id="fs-box" data-toggle="modal" data-target="#c4" style="position:absolution;display:block;">
-														<img src="/templetes/qunxian/images/c4.png" alt="290X200" class="img-responsive" style="margin-top:5px;height:180px">
-														<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-													</a>
-													<div class="modal fade" id="c4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-														<div class="modal-dialog" role="document">
-														    <div class="content-img">
-																<img src="/templetes/<%= @templete %>/images/c4-modal.png" alt="100X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-														    </div>
-														</div>
-													</div>
-												<!-- end -->
-											</div>
-											<!-- 左边2-1-2-2 -->
-											<div class="col-lg-6 col-xs-6">
-												<!-- 点击显示大图 -->
-													<a href="" id="fs-box" data-toggle="modal" data-target="#c7" style="position:absolution;display:block;">
-														<img src="/templetes/qunxian/images/c7.png" alt="290X200" class="img-responsive" style="margin-top:5px;height:180px">
-														<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-													</a>
-													<div class="modal fade" id="c7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-														<div class="modal-dialog" role="document">
-														    <div class="content-img">
-																<img src="/templetes/<%= @templete %>/images/c7-modal.png" alt="100X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-														    </div>
-														</div>
-													</div>
-												<!-- end -->
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="col-md-2 col-xs-2">
+							<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color:#fff;">
+								德华陶瓷
+								
+							</a>
+							<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
+								<li>
+									<a href="#">陶瓷展示</a>
+								</li>
+								<li >
+									<a href="#">陶瓷文化</a>
+								</li>
+								<li >
+									<a href="#">陶瓷常识</a>
+								</li>
+								<li >
+									<a href="#">陶瓷保养</a>
+								</li>
+							</ul>
 						</div>
-					</div>
-					<!-- 右 -->
-					<div class="col-lg-6">
-						<div class="row">
-							<div class="col-lg-6">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#c8" style="position:absolution;display:block;">
-										<img src="/templetes/qunxian/images/c1.png" alt="290X400" class="img-responsive" style="margin-top:5px;height:390px;" >
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="c8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/c1.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->							
-							</div>
-							<div class="col-lg-6">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#c9" style="position:absolution;display:block;">
-										<img src="/templetes/qunxian/images/c2.png" alt="290X400" class="img-responsive" style="margin-top:5px;height:390px;" >
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="c9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/c1.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->							
-							</div>
+						<div class="col-md-2 col-xs-2">
+							<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color:#fff;">
+								八马茶叶
+								
+							</a>
+							<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
+								<li>
+									<a href="#">茶叶展示</a>
+								</li>
+								<li >
+									<a href="#">茶叶文化</a>
+								</li>
+								<li >
+									<a href="#">茶叶常识</a>
+								</li>
+								<li >
+									<a href="#">茶叶保养</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-xs-2">
+							<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color:#fff;">
+								珍宝阁
+								
+							</a>
+							<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
+								<li>
+									<a href="#">珍宝展示</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-xs-2">
+							<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color:#fff;">
+									私人定制
+									<br/>
+									<span></span>
+								</a>
+								<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
+									<li>
+										<a href="#">专属定制</a>
+									</li>
+								</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		<!-- end -->
 
-		<!-- 红木 -->
-			<div class="container" id="pro1">
-				<div class="row" style="position:relative;">
-					<img src="/templetes/qunxian/images/xian.png" class="img-responsive">	
-					<span class="text-center pro-title">红木·篇</span>
+
+		<!-- banner图 -->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">  
+			  	<ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				    
+				</ol>
+			  	<!-- banner1 -->
+				<div class="carousel-inner" role="listbox">
+			  		<div class="item active">
+					    <img src="/templetes/qunxian/images/b1.jpg" alt="..." class="img-responsive" width="100%">
+					    <div class="carousel-caption">
+					        
+					    </div>
+			  		</div>
+					
+				    <div class="item">
+				      <img src="/templetes/qunxian/images/b2.jpg" alt="..." class="img-responsive" width="100%">
+				      <div class="carousel-caption">
+				        
+				      </div>
+				    </div> 
+
+				    <div class="item">
+				      <img src="/templetes/qunxian/images/b3.jpg" alt="..." class="img-responsive" width="100%">
+				      <div class="carousel-caption">
+				        
+				      </div>
+				    </div> 
+
+				    <div class="item">
+				      <img src="/templetes/qunxian/images/b4.jpg" alt="..." class="img-responsive" width="100%">
+				      <div class="carousel-caption">
+				        
+				      </div>
+				    </div>   
+
+				    <div class="item">
+				      <img src="/templetes/qunxian/images/b5.jpg" alt="..." class="img-responsive" width="100%">
+				      <div class="carousel-caption">
+				        
+				      </div>
+				    </div> 
 				</div>
-				<div class="row" style="padding-top:30px;">
-					<div class="col-lg-4" style=" height: 400px;">
-						<div class="row">
-							<div class="col-lg-12" style="height:200px;">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#h1" style="position:absolution;display:block;">
+				  <!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				</a>
+		  		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				</a>
+			</div>
+		<!-- end -->
 
-										<img src="/templetes/<%= @templete %>/images/h1.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
-
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="h1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/h1.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
+		<!-- 搜索 -->
+			
+			<!-- search-->
+			<div class="container-fuild" style="margin-top: 20px;border-bottom:1px solid #dfdfdf;">
+					<div class="row">
+							
+							<div class="col-md-6">
+								<span style="color:#000; text-decoration:none;font-size:18px;">关键字：</span>
+								<a href="" style="color:#701d19; text-decoration:none;">红木</a>
+								<a href="" style="color:#701d19; text-decoration:none;">陶瓷</a>
+								<a href="" style="color:#701d19; text-decoration:none;">八马茶叶</a>
+								<a href="" style="color:#701d19; text-decoration:none;">珍宝阁</a>
 							</div>
-							<div class="col-lg-12" style="height:200px;">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#h2" style="position:absolution;display:block;">
-
-										<img src="/templetes/<%= @templete %>/images/h2.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
-
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="h2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/h2.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4" style=" height: 400px;">
-						<!-- 点击显示大图 -->
-							<a href="" id="fs-box" data-toggle="modal" data-target="#h3" style="position:absolution;display:block;">
-
-								<img src="/templetes/<%= @templete %>/images/h6.png" alt="290X400" class="img-responsive" style="margin-top:5px;height:385px;" >
-
-								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-							</a>
-							<div class="modal fade" id="h3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-								<div class="modal-dialog" role="document">
-								    <div class="content-img">
-										<img src="/templetes/<%= @templete %>/images/h6.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-								    </div>
+							<div class="col-md-6">
+								<div class="text-right">
+									<input type="text">
+									<input type="button" value="搜索">
 								</div>
 							</div>
-						<!-- end -->
-					</div>
-					<div class="col-lg-4" style=" height: 400px;">
-						<div class="row">
-							<div class="col-lg-12" style="height:200px;">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#h4" style="position:absolution;display:block;">
-
-										<img src="/templetes/<%= @templete %>/images/h3.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
-
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="h4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/h3.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
-							<div class="col-lg-12" style="height:200px;">
-								<!-- 点击显示大图 -->
-									<a href="" id="fs-box" data-toggle="modal" data-target="#h5" style="position:absolution;display:block;">
-
-										<img src="/templetes/<%= @templete %>/images/h5.png" alt="390X200" class="img-responsive" style="margin-top:5px;">
-
-										<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-									</a>
-									<div class="modal fade" id="h5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-										<div class="modal-dialog" role="document">
-										    <div class="content-img">
-												<img src="/templetes/<%= @templete %>/images/h5.png" alt="390X200" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-										    </div>
-										</div>
-									</div>
-								<!-- end -->
-							</div>
-						</div>
 						
 					</div>
 				</div>
+			<!-- search-->
+		<!-- end -->
+
+
+		<!-- 精品推荐 390x300-->
+			<div class="container-fluid" style="margin-top:20px;">
+				<h2 class="text-center" style="color:#701d19;">精品推荐</h2>
+			
+				<img src="/templetes/qunxian/images/xian2.png" class="img-responsive" width="100%">
+				<div class="container">		
+					<div class="row">
+							<div class="col-md-12" style="margin-top:30px;">
+								<div class="row">
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp5.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">西汉鎏金熊</h3>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp6.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">红木古筝</h3>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp7.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">釉下瓷瓶</h3>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp8.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">八马茶叶</h3>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3"style="height:250px;">
+										
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;text-decoration: none;color:#fff;font-weight: 300;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp10.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">鎏金佛</h3>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp9.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">八马大红袍</h3>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp11.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">红木沙发</h3>
+											</a>
+										</div>
+									</div>
+									<div class="col-md-3"style="height:250px;">
+										<div style="position:relative;overflow:hidden;" class="pd-box">
+											<style type="text/css">
+												.right1{background:rgba(0,0,0,.3);color:#fff;position:absolute;top:100%;left:0%;width:100%;height:25%;opacity: 0;}
+												body:hover .right1{opacity: 0;transition:all 1s;}
+												.pd-box:hover .right1{opacity: 1;transition:all 1s;top:75%;}
+											</style>
+											<img src="/templetes/qunxian/images/cp/cp12.jpg" class="img-responsive"width="100%">
+											
+											<a href="javascript:void(0)" class="right1">
+												<h3 class="text-center">白马瓷塑</h3>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					</div>
+				</div>
+				
+			</div>
+			<img src="/templetes/qunxian/images/xian.png" class="img-responsive" width="100%">
+		<!-- end -->
+
+
+		
+		
+		<!-- 联系条 -->
+			<div class="container-fluid" style=" margin-top:30px;">
+				<div style="position:relative;">
+					<span id="lx" style="position:absolute;top: 35%;right: 3%;color:#fff;font-size:25px;">服务热线:<br>028-83338885</span>
+					<img src="/templetes/qunxian/images/lxt/fl.jpg" class="img-responsive" style="width:100%">
+					<img src="/templetes/qunxian/images/logo-lx.png" class="img-responsive" width="30%" style="position:absolute;top:35%;left:5%;">
+				</div>
 			</div>
 		<!-- end -->
 
-		<!-- 八马茶叶 -->
-			<div class="container" id="pro1">
-				<div class="row" style="position:relative;">
-					<img src="/templetes/qunxian/images/xian.png" class="img-responsive">	
-					<span class="text-center pro-title">八马茶叶·篇</span>
+		<!-- 四大理由 -->
+			<div class="container-fluid" style=" margin-top:30px;">
+				<div class="container">
+				<div  style="position:relative">
+					<img src="/templetes/qunxian/images/youshi.png" class="img-responsive">
+					<div class="youshi" style="position:absolute;">
+						<p style="font-size:20px;color:#701d19;">我们只选择优质上等木材,</p>
+						<p style="font-size:20px;color:#701d19;">开榫出卯。</p>
+					</div>
+					<div class="youshi2" style="position:absolute;">
+						<p style="font-size:20px;color:#701d19;">我们中国德化被誉为,</p>
+						<p style="font-size:20px;color:#701d19;">“中国民间陶瓷艺术之乡”</p>
+					</div>
+					<div class="youshi3" style="position:absolute;">
+						<p style="font-size:20px;color:#701d19;">我们有全国最大,</p>
+						<p style="font-size:20px;color:#701d19;">西汉皇族鎏金熊</p>
+						<p style="font-size:20px;color:#701d19;">嵌蓝宝石摆件。</p>
+					</div>
+					<div class="youshi4" style="position:absolute;">
+						<p style="font-size:20px;color:#701d19;">我们是</p>
+						<p style="font-size:20px;color:#701d19;">福建安溪茶产业</p>
+						<p style="font-size:20px;color:#701d19;">位居首位的高端品牌。</p>
+					</div>
 				</div>
-				<div class="row" style="margin-top:30px;">
-					<div class="col-lg-3" style="height:400px;">
-						<!-- 点击显示大图 -->
-							<a href="" id="fs-box" data-toggle="modal" data-target="#b1" style="position:absolution;display:block;">
-
-								<img src="/templetes/<%= @templete %>/images/y1.png" alt="290X400" class="img-responsive" style="margin-top:5px;">
-
-								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-							</a>
-							<div class="modal fade" id="b1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-								<div class="modal-dialog" role="document">
-								    <div class="content-img">
-										<img src="/templetes/<%= @templete %>/images/y1.png" alt="290X400" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-								    </div>
-								</div>
-							</div>
-						<!-- end -->
-					</div>
-					<div class="col-lg-3" style="height:400px;">
-						<!-- 点击显示大图 -->
-							<a href="" id="fs-box" data-toggle="modal" data-target="#b2" style="position:absolution;display:block;">
-
-								<img src="/templetes/<%= @templete %>/images/y2.png" alt="290X400" class="img-responsive" style="margin-top:5px;">
-
-								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-							</a>
-							<div class="modal fade" id="b2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-								<div class="modal-dialog" role="document">
-								    <div class="content-img">
-										<img src="/templetes/<%= @templete %>/images/y2.png" alt="290X400" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-								    </div>
-								</div>
-							</div>
-						<!-- end -->
-					</div>
-					<div class="col-lg-3" style="height:400px;">
-						<!-- 点击显示大图 -->
-							<a href="" id="fs-box" data-toggle="modal" data-target="#b3" style="position:absolution;display:block;">
-
-								<img src="/templetes/<%= @templete %>/images/y3.png" alt="290X400" class="img-responsive" style="margin-top:5px;">
-
-								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-							</a>
-							<div class="modal fade" id="b3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-								<div class="modal-dialog" role="document">
-								    <div class="content-img">
-										<img src="/templetes/<%= @templete %>/images/y3.png" alt="290X400" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-								    </div>
-								</div>
-							</div>
-						<!-- end -->
-					</div>
-					<div class="col-lg-3" style="height:400px;">
-						<!-- 点击显示大图 -->
-							<a href="" id="fs-box" data-toggle="modal" data-target="#b4" style="position:absolution;display:block;">
-
-								<img src="/templetes/<%= @templete %>/images/y4.png" alt="290X400" class="img-responsive" style="margin-top:5px;">
-
-								<span id="fd" class="glyphicon glyphicon-search" aria-hidden="true" aria-label="More Biger"></span>
-							</a>
-							<div class="modal fade" id="b4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-								<div class="modal-dialog" role="document">
-								    <div class="content-img">
-										<img src="/templetes/<%= @templete %>/images/y4.png" alt="290X400" class="img-responsive" style="margin-top:5px;" width="100%"height="100%">
-								    </div>
-								</div>
-							</div>
-						<!-- end -->
-					</div>
 				</div>
 			</div>
 		<!-- end -->
 
-	<!-- poj end -->
-	<!--  -->
-	<!-- news start -->
-	<div class="container-fluid" style="padding:50px 0;background:url('/templetes/<%= @templete%>/images/bg.jpg');height:400px;">
-		<div class="col-md-5">
-			<img src="templetes/<%= @templete%>/images/set.png">
-		</div>
-		<!-- Nav tabs <-->
-		<div class="tabs_news col-md-6">
-			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active">
-					<a class="h4 " href="#home_news" aria-controls="home" role="tab" data-toggle="tab">公司动态</a>
-				</li>
-				<li role="presentation">
-					<a class="h4 " href="#po_messages" aria-controls="profile" role="tab" data-toggle="tab">行业新闻</a>
-				</li>
-				<li role="presentation">
-					<a class="h4 " href="#notice" aria-controls="notice" role="tab" data-toggle="tab">活动公告</a>
-				</li>
 
-			</ul>
-			<style type="text/css">
-				.home_news_left .news_left{padding:10px 0;}
-				.home_news_left .news_left li{overflow:hidden;text-overflow: ellipsis;line-height: 30px;font-size: 14px;}
-				.home_news_left .news_left li:hover{cursor: pointer;text-decoration: underline;}
-				.home_news_left .news_left li span{white-space:nowrap;}
-				.home_news_left .news_left li i{float:right;color:#ccc}
-				.home_news_right 
-				/*********home_news***********/
-				#home_news ,#po_messages{padding-top:20px; }
-				#po_messages ul li{list-style: none;}
-				#po_messages ul li img{width:32%;height: 168px;}
-				#po_messages ul li img:hover{}
-			</style>
-		<!-- Tab panes -->
-		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane " id="po_messages">
-				<ul>
-					<li><a href="">四川省江苏商会一行到访我会</a>[2015-5-2]</li>
-					<li><a href="">国家副主席李源潮到访我会名誉会长单位门里集团菜宅送门店参观指导工作</a>[2015-5-2]</li>
-					<li><a href="">韩国电讯医疗事业本部暨各区市相关部门领导莅临我会洽谈合作</a>[2015-5-2]</li>
-					<li><a href="">把花园献给世界</a>[2015-5-2]</li>
-					<li><a href="">四川省福建商会攀枝花市分会秘书长到访我会</a>[2015-5-2]</li>
-					<li><a href="">走进“盼盼”——我会开展“在川优秀闽商企业走访活动”</a>[2015-5-2]</li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane " id="notice">
-				<ul>
-					<li><a href="">关于四川省福建商会秘书长变更的通知</a></li>
-					<li><a href="">中华人民共和国第一届青年运动会赞助招商指南</a></li>
-					<li><a href="">四川省福建商会微信平台正式上线</a></li>
-					<li><a href="">关于闽籍大学生刘叶鹏捐款的倡议书</a></li>
-					<li><a href="">中国梦——走进创业的新起点”</a></li>
-					<li><a href="">全国闽商“创二代”培训班招生</a></li>
-					<li><a href="">四川省福建商会会刊成都市公开投递点</a></li>
-				</ul>
-			</div>
-			<div role="tabpanel" class="tab-pane active" id="home_news">
-				<div class="col-md-7 home_news_left">
-					<marquee behavior="" direction="up" scrollamount="2" scrolldelay="-10">
-						<ul type="none" class="news_left">
-							<li>
-								<span>闽南商会扩大会</span> <i>[time]</i>
+		<!-- 服务 -->
+			<div class="page page4 container" style=" margin-top:30px;padding:0;margin:20px auto">
+				<div id="service">
+					<div  class="serciveimg" style="height:700px;">
+						<img src="/templetes/qunxian/images/public_bg.png" class="img-responsive" width="100%">
+					</div>
+					
+					<div class="srdzwarp">
+						<ul class="drgjfw">
+							<li class="click one" data-id="service1">
+								<img class="click_on" src="/templetes/qunxian/images/sericer_icon1.png">
 							</li>
-							<li>
-								<span>博士班参观闽川汇 </span> <i>[time]</i>
+							<li class="click two" data-id="service2">
+								<img class="click_on" src="/templetes/qunxian/images/sericer_icon2.png">
 							</li>
-							<li>
-								<span>广西大学、东兴实验区管委会一行领导莅临</span>
-								<i>[time]</i>
+							<li class="click there" data-id="service5">
+								<img class="click_on" src="/templetes/qunxian/images/sericer_icon5.png">
 							</li>
-							<li>
-								<span>工商联陈放调研四川省福建商会 </span>
-								<i>[time]</i>
+							<li class="click four" data-id="service4">
+								<img class="click_on" src="/templetes/qunxian/images/sericer_icon4.png">
 							</li>
-							<li>
-								<span>广西大学、东兴实验区管委会一行领参观考察 .</span>
-								<i>[time]</i>
-							</li>
-						</ul>
-					</marquee>
-				</div>
-				<div class="col-md-5 home_news_right">
-					<!-- <img src="/templetes/<%#= @templete%>
-					/images/im/s1.png" class="img-responsive" style="width:100%;height:100%;border:1px solid #ccc" alt="博士班参观"> -->
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="/templetes/<%= @templete%>
-								/images/im/s1.png" alt="...">
-								<div class="carousel-caption" ></div>
-								<div>博士班参观闽川汇</div>
+							<div class="xuiang"></div>
+						</ul>              
+					</div> 
+
+						<!-- // 
+						// 	$(function(){
+						// 		$(".drgjfw").delegate(".click img","click",function(){
+						// 			var li_id="#"+$(this).parent(".click").attr("data-id");
+						// 			var t =[];
+						// 			t.push($(li_id).find(".srwftitle img").attr("src"));
+						// 			t.push($(li_id).find(".srwfimg img").attr("src"));
+						// 			t.push($(li_id).find(".srwfcontent .srwfcontentone").text());
+						// 			t.push($(li_id).find(".srwfcontent .srwfcontenttwo").text());
+						// 			$("#service3").find(".srwftitle img").attr("src",t[0])
+						// 			$("#service3").find(".srwfimg img").attr("src",t[1])
+						// 			$("#service3").find(".srwfcontent .srwfcontentone").text(t[2])
+						// 			$("#service3").find(".srwfcontent .srwfcontenttwo").text(t[3])
+						// 		})
+						// 	})
+						// -->
+
+					<div class="tab_boxwapr">
+						<div class="tab_box"> 
+							<div class="hide change" id="service1" data-id="in_1">
+								<div class="srwftitle">
+									<img src="/templetes/qunxian/images/fuwu1.png">
+								</div>
+								<div class="srwfimg">
+									<img src="/templetes/qunxian/images/ba-1.png">
+								</div>
+								<div class="srwfcontent">
+									<p class="srwfcontentone">[尊享360°免费预约接送]</p>
+									<p class="srwfcontenttwo">预约进馆 免费接送！</p>
+								</div>
 							</div>
-							<div class="item">
-								<img src="/templetes/<%= @templete%>
-								/images/im/s2.png" alt="...">
-								<div class="carousel-caption"></div>
-								<div>福建宣传部长参观闽川汇</div>
+
+							<div class="hide change" id="service2" data-id="in_2">
+								<div class="srwftitle">
+									<img src="/templetes/qunxian/images/fuwu2.png">
+								</div>
+								<div class="srwfimg">
+									<img src="/templetes/qunxian/images/ba-2.png">
+								</div>
+								<div class="srwfcontent">
+									<p class="srwfcontentone">[专业技师传统打造方法]</p>
+									<p class="srwfcontenttwo">携手国内专业红木家具师、设计师，精细打造独一无二的红木家具。</p>
+								</div>
 							</div>
-							<div class="item">
-								<img src="/templetes/<%= @templete%>
-								/images/im/s3.png" alt="...">
-								<div class="carousel-caption"></div>
-								<div>工商联陈放调研四川省福建商会</div>
+							
+							<div class="change" id="service3" data-id="in_3">
+								<div class="srwftitle" >
+									<img src="/templetes/qunxian/images/fuwu3.png">
+								</div>
+								<div class="srwfimg">
+									<img src="/templetes/qunxian/images/sss3.jpg">
+								</div>
+								<div class="srwfcontent">
+								<p class="srwfcontentone">[尊享360°私密贴心服务]</p>
+								<p class="srwfcontenttwo">免费接送、闽睿私房菜品尝等尊贵服务。</p>
+								</div>
 							</div>
-							<div class="item">
-								<img src="/templetes/<%= @templete%>
-								/images/im/s4.png" alt="...">
-								<div class="carousel-caption"></div>
-								<div>广西大学、东兴实验区管委会一行领导莅临我司参观考察</div>
+
+							<div class="hide change" id="service4" data-id="in_4">
+								<div class="srwftitle">
+									<img src="/templetes/qunxian/images/fuwu4.png">
+								</div>
+								<div class="srwfimg">
+									<img src="/templetes/qunxian/images/sss4.jpg">
+								</div>
+								<div class="srwfcontent">
+									<p class="srwfcontentone">[享一站式尊贵礼遇]</p>
+									<p class="srwfcontenttwo">全程以“6S皇家贵宾服务”标准，从售前先行赔付全程一对一私密管家服务，为客户打造绿色服务通道，实现客户价值终身管理。</p>
+								</div>
+							</div>
+
+							<div class="hide change" id="service5" data-id="in_5">
+								<div class="srwftitle">
+									<img src="/templetes/qunxian/images/fuwu5.png">
+								</div>
+								<div class="srwfimg">
+									<img src="/templetes/qunxian/images/sss5.jpg">
+								</div>
+								<div class="srwfcontent">
+									<p class="srwfcontentone">[配送“头等舱”]</p>
+									<p class="srwfcontenttwo">首倡全国送货安装。采用国际最前沿的服务标准，提供包装--运输--保险--安装--维护全程专业服务。</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="col-md-1"></div>
-	</div>
+		<!-- end -->
+		
 
-</div>
+
+
+		<!-- 公司简介 -->
+			<div class="container" style="margin-top:40px ;">
+				<div class="row">
+					
+					<div class="col-md-6" style="margin-top: 10px;">
+						<p style="font-size: 24px;color: #790000">公司简介 | Company profile</p>
+					</div>
+					<div class="col-md-2"></div>
+					<div class="col-md-4">
+						
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 15px;margin-bottom: 30px;">
+				
+					<div class="col-md-8">
+						<p style="font-size:20px;text-indent:2em;letter-spacing: 1px;">
+						群仙闽睿红木馆为四川闽睿实业有限公司与福建群仙红木股份有限公司共同投资兴建。总面积4200余平方米。在四川省工商联、四川省福建商会的指导下，应国家文化产业复兴之号角，感中华文化之锦绣，聚蓉城各地商会、高校校友会、行业协会之雄魄，集百家之言，合群贤之智，以群仙红木为体、艺术品、国画书法为媒，会议特色餐饮为泉，效汉唐风骨、竹林轶事，养儒商之气，倡国士之风。
+
+						</p>
+						<p style="font-size:20px;text-indent:2em;letter-spacing: 1px;">闽睿红木馆利用红木、艺术、美食、茶艺、香道、讲座，营造出典雅、幽静、温馨的氛围，并每周2次举办高端文化沙龙等活动，为社会精英人士提供休憩身心的理想场所、广结善缘的绝佳平台。
+						</p>
+						
+					</div>
+					
+					<div class="col-md-4" >
+						<img src="/templetes/qunxian/images/tes.png" class="img-responsive">	
+					</div>
+
+					
+				</div>
+			</div>
+			
+
+		<!-- 联系条 -->
+			<div class="container-fluid" style=" margin-top:30px;">
+				<div style="position:relative;">
+					<span style="position:absolute;top: 35%;\right: 3%;color:#fff;font-size:25px;">服务热线:<br>028-83338885</span>
+					<img src="/templetes/qunxian/images/lxt/fl.jpg" class="img-responsive" style="width:100%">
+					<img src="/templetes/qunxian/images/logo-lx.png" class="img-responsive" width="30%" style="position:absolute;top:35%;left:5%;">
+				</div>
+			</div>
+		<!-- end -->
+
+		<!-- 新闻公告 460X310 banner图大小 -->
+			<div class="container-fluid" style=" margin-top:30px;">
+			
+				<div class="container news" style=" padding-bottom:50px;">
+
+
+					<div class="row" >		
+						<div class="col-md-7 col-xs-12">
+							<div class="col-md-11 col-xs-9 ph-left" >
+								<div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item active imgs">
+											<img src="/templetes/<%= @templete%>/images/im/news1.png" alt="..."class="img-responsive" width="100%">
+											<div class="carousel-caption imgs-b">
+												<div class="col-md-2 re">
+													<img src="/templetes/<%= @templete%>/tu/play.png" class="img-responsive"></div>
+												<div class="col-md-10 ab">
+													<h4 class="h4" style="">调研四川省福建商会</h4>
+													<h6 class="h6">四川省政协副主席、工商联主席陈放调研四川省福建商会...</h6>
+												</div>
+											</div>
+										</div>
+										<div class="item imgs">
+											<img src="/templetes/<%= @templete%>/images/im/news2.png" alt="..."class="img-responsive"width="100%">
+											<div class="carousel-caption imgs-b">
+												<div class="col-md-2 re">
+													<img src="/templetes/<%= @templete%>/tu/play.png" class="img-responsive" width="100%"></div>
+												<div class="col-md-10 ab">
+													<h4 class="h4" style="">调研四川省福建商会</h4>
+													<h6 class="h6">四川省政协副主席、工商联主席陈放调研四川省福建商会....</h6>
+												</div>
+
+											</div>
+										</div>
+										<div class="item imgs">
+											<img src="/templetes/<%= @templete%>/images/im/news3.png" alt="..."class="img-responsive" width="100%">
+											<div class="carousel-caption imgs-b">
+												<div class="col-md-2 re">
+													<img src="/templetes/<%= @templete%>/tu/play.png" class="img-responsive" width="100%">
+												</div>
+												<div class="col-md-10 ab">
+													<h4 class="h4" style="">调研四川省福建商会</h4>
+													<h6 class="h6">四川省政协副主席、工商联主席陈放调研四川省福建商会....</h6>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										
+							<div class="col-md-1 col-xs-2 btn-right">
+								<ul type="none" class="btn-group-vertical" style="padding:0 0">
+									<li data-target="#carousel-example-generic-1" data-slide-to="0" class="btn btn-defult" style="">1</li>
+									<li data-target="#carousel-example-generic-1" data-slide-to="1" class="btn btn-defult">2</li>
+									<li data-target="#carousel-example-generic-1" data-slide-to="2"class="btn btn-defult">3</li>
+								</ul>
+							</div>	
+						</div>		
+						<div class="col-md-5 col-xs-12 hy-news">
+							<h3 class="title" >行业新闻</h3>
+
+							<div>
+								<a href="#">
+									<div class="h5">第n界新闻发布会</div>
+								</a>
+								<a href="#">
+									<div class="h6">
+										看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号......
+									</div>
+								</a>
+								<div class="small text-right time1">[2014-5-21]</div>
+							</div>
+							<div>
+								<a href="#">
+									<div class="h5">第n界新闻发布会</div>
+								</a>
+								<a href="#">
+									<div class="h6">
+										看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号看合适的开发和卡号......
+									</div>
+								</a>
+								<div class="small text-right time1">[2014-5-21]</div>
+							</div>
+							<div class="row text-right more" >
+								<a style="background:url('/templetes/<%= @templete%>/tu/mark_more1.jpg');" >更多+</a>
+							</div>
+						</div>	
+					</div>
+
+					<div class="row gg_news">
+						<h3 class="title_h">公告</h3>
+					</div>
+					<div class="col-md-4 font_de">
+						<h5>
+							<a href="">四川省江苏商会一行到访我会</a>
+						</h5>
+						<div >
+							<a href="" class="dele">4月19日，四川省江苏商会常务副会长姜兴圣、宣传部部长甘甜到我会走访交流</a>
+						</div>
+						<div class="text_span">
+							<span>
+								<a href="">查看详情</a>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-4 font_de">
+						<h5>
+							<a href="">四川省江苏商会一行到访我会</a>
+						</h5>
+						<div >
+							<a href="" class="dele">4月19日，四川省江苏商会常务副会长姜兴圣、宣传部部长甘甜到我会走访交流</a>
+						</div>
+						<div class="text_span">
+							<span>
+								<a href="">查看详情</a>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-4 cont">
+						<img src="/templetes/<%= @templete%>/tu/erwei.png" alt="二维码" class="col-md-4 img-responsive">
+						<ul class="col-md-8" type="none" style="dispaly">
+							<li>
+								地址：
+								<span>四川成都市成华区秀苑东路5号B栋1-4楼</span>
+							</li>
+							<li>
+								电话：
+								<span>028-83338885</span>
+							</li>
+							<li>
+								传真：
+								<span>028-83208979</span>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		<!-- end -->
+
+<!-- poj end -->
+
+<!-- news start -->
+	<div class="container news">		
+		
+	</div>
+<!-- new end -->
+<%= render file: 'public/templetes/qunxian/_footer.html' %>
 
