@@ -25,22 +25,19 @@ $(function(){
 	
 	// });
 
-$(".all").hide()
+
 	$(".gt").mouseover(function(){
 		
 		$(".all").empty().append($(this).next("ul").clone().css({display:"block"}));
-		// alert($(this).position().left);
-		
 		$(".all").css({"padding-left":($(this).offset().left)+"px"});
-		$(".all").stop().show();
+		$(".all").stop().animate({"margin-top":"0px"},1000);
 	})
-	$("#tr , .all").mouseout(function(){
+$(".nav_de").mouseleave(function(){
+			$(".all").stop().animate({"margin-top":"-30px"},1000);
+		})
 
-		setTimeout(function(){
- $(".all").stop().hide()
-},10000)
-		 
-	})
+
+
 
 // server
 	

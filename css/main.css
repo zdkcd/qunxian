@@ -37,7 +37,7 @@ a:focus { outline: none; }
 	.js-box p{font-size: 200%;}
 	.js p{font-size: 100%;}
 	.youshi p,.youshi2 p,.youshi3 p,.youshi4 p{font-size: 100%;}
-	#lx{position:absolute; top:1%;right:1%;}
+	#lx{position:absolute; top:1%;right:1%;font-size: 100%;}
 }
 @media (min-width:769px ) and (max-width:1024px){
 	.img-1{margin-right:0px; }
@@ -69,11 +69,13 @@ a:focus { outline: none; }
 	.text{margin-top: 25px;}
 }
 
-@media (max-width:2366px){
+@media(min-width: 1367px) and (max-width:2366px){
 	.img-1{margin-right:0px; }
 	.h-head{margin: 15px;}
 	.dh-head{padding: 0px;}
-	
+	#lx{
+			position:absolute;top: 23%;right: 11%;color:#fff;font-size:170%;
+	}
 	.youshi{top:13%;left:33%;}
 	.youshi2{top:13%;right: -3%;}
 	.youshi3{top:66%;left:33%;}
