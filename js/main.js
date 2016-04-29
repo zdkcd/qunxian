@@ -30,10 +30,10 @@ $(function(){
 		
 		$(".all").empty().append($(this).next("ul").clone().css({display:"block"}));
 		$(".all").css({"padding-left":($(this).offset().left)+"px"});
-		$(".all").stop().animate({"margin-top":"0px"},1000);
+		$(".all").stop().animate({"margin-top":"0px"},500);
 	})
 $(".nav_de").mouseleave(function(){
-			$(".all").stop().animate({"margin-top":"-30px"},1000);
+			$(".all").stop().animate({"margin-top":"-30px"},500);
 		})
 
 
