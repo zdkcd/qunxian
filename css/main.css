@@ -6,6 +6,30 @@
 
 body{font-family:'微软雅黑';color:#000;background-image:url('/templetes/qunxian/images/long.png');}
 
+
+
+
+/* 导航0503 */
+	.nava{background:#8d6f5f;}
+	.nava ul li{list-style: none;float:left;width:100px;height:46px;text-align: center;line-height: 46px;}
+	.nava ul li:hover{background: rgba(10,5,5,0.5);}
+	
+	.nava ul li a{color:#fff; font-size: 14px;text-decoration: none;}
+	.nava .ua1{height: 0;overflow:hidden; -webkit-transition:.5s;}
+	.nava .ua{margin-left: -40px;}
+	.nava .ua li{border:none;background:rgba(10,5,5,.5);}
+	.nava .ua li:hover{background:rgba(10,5,5,.7);}
+	.nava ul li:hover a{color:#fff;}
+	.nava ul li:hover .ua1{height: 138px;}
+	.nava ul li:hover .ua2{display:block; -webkit-animation:anim 1s;}
+	.nava .ua2{display:none;}
+	@-webkit-keyframes anim{
+		form{-webkit-transform:rotateY(0deg); opacity:0;}
+		to{-webkit-transform:rotateY(360deg); opacity:1;}
+	}
+	.
+/* end */
+
 /*  nav start */
 	#tes .top_trt ul li{
 	
@@ -49,6 +73,7 @@ a:focus { outline: none; }
 	.youshi3{top:66%;left:33%;}
 	.youshi4{top:66%;right:-3%;}
 	.h-head-c1 img{height: 100px; width: 100px;}
+	.nava ul li{width:80px;}
 
 }
 
