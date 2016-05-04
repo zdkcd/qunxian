@@ -114,7 +114,12 @@ a:focus { outline: none; }
 
 /* end */
 
-
+/*优势*/
+	.youshi{top:17%;left:32%;}
+	.youshi2{top:17%;left:84%;}
+	.youshi3{top:65%;left:32%;}
+	.youshi4{top:65%;left:84%;}
+/*end*/
 
 /*****news start*************/
 	a:focus {  
