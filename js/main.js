@@ -1,51 +1,55 @@
 $(function(){
 	// nav 效果
-	// $('.header_nav li').hover(function(){
-	// 	$('span',this).css('height','3px');
-	// 	$(this).find("span").show();
-	// 	$('span',this).stop().animate({
-	// 		left:'0',
-	// 		width:'100%',
-	// 		right:'0'
-	// 	},1000);
-	// 	var posi_lft=$(this).position().left+($(this).width()-$("#ico").width())/2;
+	$('.header_nav li').hover(function(){
+		$('span',this).css('height','3px');
+		$(this).find("span").show();
+		$('span',this).stop().animate({
+			left:'0',
+			width:'100%',
+			right:'0'
+		},1000);
+		var posi_lft=$(this).position().left+($(this).width()-$("#ico").width())/2;
 
-	// 	$("#ico").stop().css({top:$(this).height()}).show().animate({
-	// 		left:posi_lft
-	// 	},900);
-	// },function(){
-	// 	$('span',this).stop().animate({
-	// 		left:'50%',
-	// 		width:'0'
-	// 		},50).find("span").hide();
+		$("#ico").stop().css({top:$(this).height()}).show().animate({
+			left:posi_lft
+		},900);
+	},function(){
+		$('span',this).stop().animate({
+			left:'50%',
+			width:'0'
+			},50).find("span").hide();
 		
-	// 	$("#ico").stop().hide().animate({
-	// 		left:"0px",display:"none"
-	// 	},1);
+		$("#ico").stop().hide().animate({
+			left:"0px",display:"none"
+		},1);
 	
-	// });
-
-
-	$(".gt").mouseover(function(){
-		var ty=$(this).parents(".yun").next(".sy").find(".all");
-		ty.empty().append($(this).next("ul").clone().css({display:"block"}));
-		ty.css({"padding-left":($(this).offset().left)+"px"});
-		if(ty.attr("id")=="all_2"){
-			ty.stop().animate({"margin-top":"0px"},500);
-
-		}else if(ty.attr("id")=="all_1"){
-			ty.stop().animate({"margin-top":"0px"},500);
-		}
-		
+	});
+	// 底部导航
+	$(".nbn .mi .nav_list").each(function(){
+		var hi = 12+parseInt($(this).height());
+		$(this).css({"top":"-"+hi+"px"})
 	})
-$(".sy").mouseleave(function(){
-			var ty=$(this).find(".all");
-			if(ty.attr("id")=="all_2"){
-				ty.stop().animate({"margin-top":"30px"},500);
-			}else if(ty.attr("id")=="all_1"){
-				ty.stop().animate({"margin-top":"-30px"},500);
-			}	
-		})
+
+// 	$(".gt").mouseover(function(){
+// 		var ty=$(this).parents(".yun").next(".sy").find(".all");
+// 		ty.empty().append($(this).next("ul").clone().css({display:"block"}));
+// 		ty.css({"padding-left":($(this).offset().left)+"px"});
+// 		if(ty.attr("id")=="all_2"){
+// 			ty.stop().animate({"margin-top":"0px"},500);
+
+// 		}else if(ty.attr("id")=="all_1"){
+// 			ty.stop().animate({"margin-top":"0px"},500);
+// 		}
+		
+// 	})
+// $(".sy").mouseleave(function(){
+// 			var ty=$(this).find(".all");
+// 			if(ty.attr("id")=="all_2"){
+// 				ty.stop().animate({"margin-top":"30px"},500);
+// 			}else if(ty.attr("id")=="all_1"){
+// 				ty.stop().animate({"margin-top":"-30px"},500);
+// 			}	
+// 		})
 
 
 
