@@ -31,12 +31,13 @@ body{font-family:'微软雅黑';color:#000;background-image:url('/templetes/qunx
 	#dropdownMenu1,.zl{color:#bf9f60;}
 	#dropdownMenu1:hover{color:#000;}
 	.s li .zl:hover{color: #000;}
+	#navbar .dropdown-menu{min-width: 0px;width:100%;}
 .s{background: #646464;border:none;padding:0 auto;border-radius: 0px;}
-.s li a{text-align: center;height: 100%;text-shadow:none;font-size: 15px;}
+.s li a{text-align: center;height: 100%;text-shadow:none;font-size: 15px;width: 120px;}
 .s li a:hover{color: #000;cursor: pointer;}
 .s span{background:#fff ;}
 .header_nav{margin-left: 10%;}
-.header_nav i{margin-right: 10px;vertical-align: text-bottom;}    
+ 
 .header_nav span{position: absolute;bottom: 10px;left: 50%;background: #bf9f60}
 /* end */
 
