@@ -120,6 +120,12 @@ a:focus { outline: none; }
 	.youshi3{top:65%;left:32%;}
 	.youshi4{top:65%;left:84%;}
 /*end*/
+/*导航条*/
+	#lx{position:absolute; top: 26%; right: 12%;font-size: 21px;color: #fff;}
+	@media (min-width: 769px) and (max-width: 1024px){
+		#lx{position:absolute;top: 20%;right: 11%;font-size: 21px;color: #fff;}
+	}
+/*end*/
 
 /*****news start*************/
 	a:focus {  
