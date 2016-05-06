@@ -1,0 +1,22 @@
+<%= render file: 'public/templetes/'+@templete+'/_header.html'%>
+    <!-- news -->
+    <div class="container ">
+        <div class="newsp">
+            <div><img src="/templetes/<%= @templete %>/images/new/hs.jpg" class="img-responsive" style=""></div>
+            <% @channel.pages.each do |page|%>
+                <div class="text-left detil row">
+                    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+                        <h3><img src="<%= page.image_path%>" style="border:1px solid #ccc; "alt="行业缩略图" class="s_img"></h3>
+                    </div>
+                    <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 detil2">
+                        <h3><a href="<%= get_url(page)%>"><%= page.title%></a></h3>
+                        <span><%= page.updated_at.year %>-<%= page.updated_at.month %>-<%= page.updated_at.day %>·<%= @channel.title%></span>
+                        <p><%= page.description%></p>
+                    </div>
+                </div>
+                <div class="detil_hr" height="2px;"></div>
+            <% end%>
+        </div>
+    </div>
+    <!--  -->
+<%= render file:'public/templetes/'+@templete+'/_footer.html' %>

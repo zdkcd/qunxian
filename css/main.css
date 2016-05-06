@@ -33,7 +33,7 @@ body{font-family:'微软雅黑';color:#000;background-image:url('/templetes/qunx
 	.s li .zl:hover{color: #000;}
 	#navbar .dropdown-menu{min-width: 0px;width:100%;}
 .s{background: #646464;border:none;padding:0 auto;border-radius: 0px;}
-.s li a{text-align: center;height: 100%;text-shadow:none;font-size: 15px;width: 100%;}
+.s li a{text-align: center;height: 100%;text-shadow:none;font-size: 14px;width: 100%;}
 .s li a:hover{color: #000;cursor: pointer;}
 .s span{background:#fff ;}
 .header_nav{margin-left: 10%;}
@@ -178,3 +178,21 @@ a:focus { outline: none; }
 @media (max-width: 600px) {
 .footer_font .silde_c{display: none} }
 /********* footer end  ******************
+/*news*/
+	.newsp{margin-top: 5px;}
+    .newsp p {
+        color: #646464
+    }
+    
+    .detil_hr {
+        border-bottom: 1px dashed #646464;
+        height: 100%;
+    }
+    .s_img{max-width: 100%; padding: 1px 1px ;border: 1px solid #ccc;}
+    .detil2 h3 a{color: #000000}
+    .detil2 h3 a:hover{color: #d6623d;cursor: pointer;text-decoration: none;}
+/**/
+/*联系*/
+#contact .messa{width: 100%;}
+#contact textarea{height:300px;width: 100%;}
+/**/

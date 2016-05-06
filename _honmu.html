@@ -1,0 +1,27 @@
+<%= render file: 'public/templetes/'+@templete+'/_header.html'%>
+	<style type="text/css">
+	.hon_de img{border:1px solid #fff;padding: 2px}
+	.hon_de{margin: 0px;height:100%;background: #ccc;}
+	.hon_de_p span {color: #323232;font-size: 20px;line-height: 250%}
+	.hon_de_p p{color: #646464;font-size: 16px;}
+	
+	/**/
+	</style>
+<div class="container">
+	<div class="col-md-9" >
+		<div style="margin:20px 0px;" class="row hon_de_0">
+			<img src="templetes/<%= @templete%>/images/honmu/nav_1.jpg" class="img-responsive">
+		</div>
+		<div class="row hon_de" >
+			<div class="col-md-3" style="padding-left:0px;">
+				<img src="" style="width:100%" class="img-responsive">
+			</div>
+			<div class="col-md-9 hon_de_p" >
+				<span class="title">一个标题</span>
+				<p>一段文字介绍</p>
+			</div>
+		</div>
+	</div>
+	<%= render file:'public/templetes/'+@templete+'/temp_right.html'%>
+</div>
+<%= render file: 'public/templetes/'+@templete+'/_footer.html'%>

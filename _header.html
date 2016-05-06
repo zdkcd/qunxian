@@ -79,15 +79,15 @@
 										</a>
 										<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
 											<li>
-												<a href="#">红木展示</a>
+												<a href="min-rui-hon#">红木展示</a>
 											</li>
 											<li role="separator" class="divider"></li>
 											<li >
-												<a href="#">红木常识</a>
+												<a href="min-rui-hon#">红木常识</a>
 											</li>
 											<li role="separator" class="divider"></li>
 											<li >
-												<a href="#">红木文化</a>
+												<a href="min-rui-hon#">红木文化</a>
 											</li>
 											<li role="separator" class="divider"></li>
 										</ul>
@@ -194,16 +194,16 @@
 										</a>
 										<ul class="dropdown-menu nav_list" aria-labelledby="dropdownMenu1">
 											<li>
-												<a href="/xin-wen-zho#">公司新闻</a>
+												<a href="<%= get_url(Admin::Channel.find_by(id:13))%>">	公司新闻</a>
 											</li><li role="separator" class="divider"></li>
 											<li>
-												<a href="#">行业新闻</a>
+												<a href="<%= get_url(Admin::Channel.find_by(id:4))%>">行业新闻</a>
 											</li>
 											<li role="separator" class="divider"></li>
 										</ul>
 									</li>
 									<li class="col-md-1 col-lg-1 col-sm-1 col-xs-1"  style="margin:0;padding:0">
-										<a class="zl">
+										<a class="zl" href="<%= get_url(Admin::Channel.find_by(id:11))%>">
 										<i class="glyphicon glyphicon-phone-alt" ></i>
 											联系我们
 											<br/>	
